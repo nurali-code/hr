@@ -1,0 +1,40 @@
+header
+    overflow: hidden
+    display: flex
+    justify-content: space-between
+    align-items: center
+    z-index: unset
+    padding: 40px 0
+
+    .btn
+        &-search
+            margin: 0 17px 0 auto
+
+    .logo
+        color: #fff
+        span,
+        img
+            display: inline-block
+            vertical-align: middle
+
+        span
+            padding-left: 20px
+
+    .hotline
+        color: #fff
+        font-weight: 300
+        span
+            display: block
+            padding: 4px 0 0
+
+        &:hover
+            span
+                text-decoration: underline
+
+    @media screen and ( max-width: 1500px )
+        padding: 20px 0
+
+    @media screen and ( max-width: 700px )
+        .logo 
+            span 
+                display: none
